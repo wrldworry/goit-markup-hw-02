@@ -1,0 +1,115 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f8f9fa;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    color: #2196F3;
+}
+
+/* Контакти */
+.contacts a {
+    text-decoration: none;
+    color: #757575;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: #2196F3;
+}
+
+/* Портфоліо */
+.portfolio {
+    padding: 120px 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #212121;
+    font-family: "Raleway", sans-serif;
+}
+
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.portfolio-category {
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Футер */
+.footer {
+    background-color: #2F303A;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

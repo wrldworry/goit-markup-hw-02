@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", 'Raleway',  sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: #434455
 }
@@ -11,9 +11,6 @@ a {
 
 
 .logo {
-/* Web */
-width: 44px;
-height: 21px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -36,9 +33,6 @@ text-transform: uppercase;
 }
 
 .logo-light {
-/* Studio */
-width: 71px;
-height: 21px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -55,10 +49,7 @@ color: #2E2F42;
 .nav-list {
 }
 .nav-list-item {
-/* Studio */
 list-style-type: none;
-width: 48px;
-height: 24px;
 /* Body Medium */
 font-family: 'Roboto';
 font-style: normal;
@@ -71,12 +62,6 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .contact-info {
-/* info@devstudio.com */
-width: 153px;
-height: 24px;
-left: 940px;
-top: 24px;
-
 /* Body */
 font-family: 'Roboto';
 font-style: normal;
@@ -92,17 +77,6 @@ color: #434455;
     background-color: #2E2F42;
 }
 .btn-primary {
-/* Button */
-position: relative;
-width: 169px;
-height: 56px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 10;
-padding: 16px 32px 16px 32px;
 /* Button Text */
 color: rgb(255, 255, 255);
 font-family: Roboto;
@@ -110,8 +84,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 4%;
-text-align: left;
-border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 /* IRIS */
 background: rgb(77, 90, 229);
@@ -189,9 +161,6 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-p1 {
-    /* Camila Garcia */
-width: 130px;
-height: 24px;
 /* Header 3 */
 font-family: 'Roboto';
 font-style: normal;
@@ -203,9 +172,6 @@ color: #2E2F42;
 }
 
 .team-p2 {
-/* Frontend Developer */
-width: 144px;
-height: 24px;
 /* Body */
 font-family: 'Roboto';
 font-style: normal;
@@ -221,9 +187,6 @@ color: #434455;
     list-style-type: none;
 }
 .footer-logo {
-    /* Studio */
-width: 71px;
-height: 21px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -264,9 +227,6 @@ letter-spacing: 2%;
 }
 
 .web-footer-dark {
-/* Web */
-width: 44px;
-height: 21px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;

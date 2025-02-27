@@ -1,6 +1,7 @@
 body {
-    font-family: 'Roboto', 'Raleway',  sans-serif;
+    font-family: "Roboto", 'Raleway',  sans-serif;
     background-color: #fff;
+    color: #434455
 }
 
 a {
@@ -11,67 +12,42 @@ a {
 
 .logo {
 /* Web */
-
 width: 44px;
 height: 21px;
-
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 21px;
 /* identical to box height, or 117% */
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color: #4D5AE5;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
 }
 
 .logo-dark {
-    color: rgb(77, 90, 229);
+color: rgb(77, 90, 229);
 font-family: 'Raleway';
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
 letter-spacing: 3%;
-text-align: left;
 text-transform: uppercase;
 }
 
 .logo-light {
-    /* Studio */
-
+/* Studio */
 width: 71px;
 height: 21px;
-
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 21px;
 /* identical to box height, or 117% */
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color: #2E2F42;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
 }
 
 .nav {
@@ -79,11 +55,10 @@ flex-grow: 0;
 .nav-list {
 }
 .nav-list-item {
-    /* Studio */
+/* Studio */
 list-style-type: none;
 width: 48px;
 height: 24px;
-
 /* Body Medium */
 font-family: 'Roboto';
 font-style: normal;
@@ -92,16 +67,8 @@ font-size: 16px;
 line-height: 24px;
 /* identical to box height, or 150% */
 letter-spacing: 0.02em;
-
 /* NAVY BLUE */
 color: #2E2F42;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
 }
 .contact-info {
 /* info@devstudio.com */
@@ -118,11 +85,8 @@ font-size: 16px;
 line-height: 24px;
 /* identical to box height, or 150% */
 letter-spacing: 0.02em;
-
 /* SLATE */
 color: #434455;
-
-
 }
 .hero {
     background-color: #2E2F42;
@@ -171,24 +135,14 @@ font-size: 16px;
 line-height: 24px;
 /* or 150% */
 letter-spacing: 0.02em;
-
 /* SLATE */
 color: #434455;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
 }
 
 .h3-s {
 /* Strategy */
-
 width: 264px;
 height: 24px;
-
 /* Header 3 */
 font-family: 'Roboto';
 font-style: normal;
@@ -197,15 +151,8 @@ font-size: 20px;
 line-height: 24px;
 /* identical to box height, or 120% */
 letter-spacing: 0.02em;
-
 /* NAVY BLUE */
 color: #2E2F42;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 
 .team-h2 {
@@ -218,7 +165,6 @@ line-height: 40px;
 /* identical to box height, or 111% */
 text-align: center;
 letter-spacing: 0.02em;
-
 /* NAVY BLUE */
 color: #2E2F42;
 }
@@ -239,11 +185,8 @@ line-height: 40px;
 /* identical to box height, or 111% */
 text-align: center;
 letter-spacing: 0.02em;
-
 /* NAVY BLUE */
 color: #2E2F42;
-
-
 }
 .team-p1 {
     /* Camila Garcia */
@@ -255,32 +198,22 @@ font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
-/* identical to box height, or 120% */
-text-align: center;
-letter-spacing: 0.02em;
 /* NAVY BLUE */
 color: #2E2F42;
 }
 
 .team-p2 {
-    /* Frontend Developer */
-
+/* Frontend Developer */
 width: 144px;
 height: 24px;
-
 /* Body */
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-text-align: center;
-letter-spacing: 0.02em;
-
 /* SLATE */
 color: #434455;
-
 }
 .portfolio {
 }
@@ -289,24 +222,17 @@ color: #434455;
 }
 .footer-logo {
     /* Studio */
-
 width: 71px;
 height: 21px;
-
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 21px;
-/* identical to box height, or 117% */
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 /* CLOUD */
 color: #F4F4FD;
-
 }
 
 .footer_text{
@@ -318,22 +244,19 @@ font-size: 16px;
 line-height: 24px;
 /* or 150% */
 letter-spacing: 0.02em;
-
 /* CLOUD */
 color: #F4F4FD;
-
 }
 
 .img-portfolio {
 }
 .h1-hero {
-    color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 font-family: 'Roboto';
 font-size: 56px;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 2%;
-text-align: center;
 }
 
 .footer {
@@ -342,21 +265,16 @@ text-align: center;
 
 .web-footer-dark {
 /* Web */
-
 width: 44px;
 height: 21px;
-
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 21px;
 /* identical to box height, or 117% */
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 /* IRIS */
 color: #4D5AE5;
 }

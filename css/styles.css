@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: #434455
 }
@@ -19,7 +19,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 color: rgb(77, 90, 229);
-font-family: 'Raleway';
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;

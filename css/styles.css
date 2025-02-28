@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway" sans-serif;
     background-color: #fff;
     color: #434455
 }
@@ -39,11 +39,18 @@ text-transform: uppercase;
 color: #2e2f42;
 }
 
-.nav {
-    font-family: "Raleway", sans-serif;
-}
-.nav-list {
-}
+.logo-light-2 {
+font-family: "Raleway", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd
+ }
+
 .nav-list-item {
 list-style-type: none;
 /* Body Medium */
@@ -57,6 +64,7 @@ letter-spacing: 0.02em;
 /* NAVY BLUE */
 color: #2E2F42;
 }
+
 .contact-info {
     font-style: normal;
   }
@@ -91,7 +99,7 @@ color: #2E2F42;
 }
 
 .btn-primary {
-font-family: "Roboto", sans-serifs;
+font-family: "Roboto", sans-serif;
 color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: 500;
@@ -188,6 +196,10 @@ cursor: pointer;
     padding: 20px;
     border-radius: 8px;
   }
+
+.our-team {
+    background-color: #F4F4FD;
+}
 
 .fourth-section .section-title {
     font-size: 36px;

@@ -109,12 +109,41 @@ cursor: pointer;
     background-color: #404BBF;
 }
 
-.team {
-    background-color: #F4F4FD;
-}
-.team-list {
-    list-style-type: none;
-}
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 30px;
+  }
+  .team-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .team-item {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-top: 10px;
+  }
+  .team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
 
 .contact-info {
     font-style: normal;
@@ -160,37 +189,28 @@ cursor: pointer;
     border-radius: 8px;
   }
 
-.portfolio-h2 {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-/* identical to box height, or 111% */
-letter-spacing: 0.02em;
-/* NAVY BLUE */
-color: #2E2F42;
-}
-.team-p1 {
-/* Header 3 */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-/* NAVY BLUE */
-color: #2E2F42;
+.fourth-section .section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.team-p2 {
-/* Body */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* SLATE */
-color: #434455;
+.project-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer_text{

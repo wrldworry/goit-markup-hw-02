@@ -47,6 +47,7 @@ color: #2e2f42;
 }
 
 .nav {
+    font-family: "Raleway", sans-serif;
 }
 .nav-list {
 }
@@ -88,20 +89,23 @@ color: #2E2F42;
 }
 .btn-primary {
 /* Button Text */
+font-family: "Roboto", sans-serifs;
 color: rgb(255, 255, 255);
-font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 4%;
-/* IRIS */
+letter-spacing: 0.04em;
 background: rgb(77, 90, 229);
-cursor: pointer;
 }
-.features {
+
+.btn-primary:hover {
+    background-color: #404BBF;
 }
-.feature {
+
+.btn-primary:focus {
+    background-color: #404BBF;
 }
+
 .p-s {
 /* Body */
 font-family: 'Roboto';
@@ -212,13 +216,14 @@ color: #F4F4FD;
 
 .img-portfolio {
 }
-.h1-hero {
+.h1hero {
 color: rgb(255, 255, 255);
 font-family: 'Roboto';
 font-size: 56px;
 font-weight: 700;
-line-height: 60px;
-letter-spacing: 2%;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
 }
 
 .footer {
